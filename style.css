@@ -1517,18 +1517,18 @@ button:focus-visible{
 @supports (-webkit-touch-callout:none){
 
   .ambient-bg span{
-    filter:blur(60px);
-    -webkit-filter:blur(60px);
-  }
-
-  .hero-blob span{
     filter:blur(45px);
     -webkit-filter:blur(45px);
   }
 
+  .hero-blob span{
+    filter:blur(35px);
+    -webkit-filter:blur(35px);
+  }
+
   .nav-pill{
-    backdrop-filter:blur(10px);
-    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
   }
 }
 
